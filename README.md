@@ -114,8 +114,6 @@ Brand
 
 Image URL
 
-and click Add Product.
-
 Edit Product
 
 Click the Edit button to update an existing product.
@@ -123,26 +121,6 @@ Click the Edit button to update an existing product.
 Delete Product
 
 Click the Delete button to remove a product.
-
-📸 Screenshots
-
-Home / Product Form
-
-Add your screenshot here:
-
-![Product Form](./screenshots/product-form.png)
-
-Products List
-
-Add your screenshot here:
-
-![Products](./screenshots/products.png)
-
-🎥 Video Demo
-
-Add your project demo video link here:
-
-[▶️ Watch Project Demo](YOUR_VIDEO_LINK)
 
 📚 What I Learned
 
