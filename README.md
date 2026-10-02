@@ -1,16 +1,173 @@
-# React + Vite
+🛍️ Product Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Product Management CRUD Application built
+with React JS, Bootstrap, and JSON Server.
 
-Currently, two official plugins are available:
+This project allows users to add, view, edit, and delete products using
+a REST API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
 
-## React Compiler
+➕ Add new products
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👀 View all products
 
-## Expanding the ESLint configuration
+✏️ Edit product details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🗑️ Delete products
+
+🖼️ Add product image URL
+
+💰 Display product price
+
+🏷️ Display category and brand
+
+📱 Responsive Bootstrap layout
+
+🔄 Data stored using JSON Server REST API
+
+🛠️ Technologies Used
+
+React JS
+
+JSX
+
+Bootstrap
+
+JavaScript
+
+JSON Server
+
+Vite
+
+📂 Project Structure
+
+product-project/
+├── src/
+│   ├── App.jsx
+│   └── main.jsx
+├── db.json
+├── package.json
+└── README.md
+
+⚙️ Installation & Setup
+
+1. Clone the repository
+
+git clone YOUR_GITHUB_REPOSITORY_LINK
+
+2. Open the project
+
+cd product-project
+
+3. Install dependencies
+
+npm install
+
+4. Start JSON Server
+
+Open a separate terminal and run:
+
+npx json-server db.json --port 3000
+
+API endpoint:
+
+http://localhost:3000/products
+
+5. Start React
+
+Open another terminal and run:
+
+npm run dev
+
+Then open the local URL shown by Vite in your browser.
+
+📌 API
+
+The application uses:
+
+http://localhost:3000/products
+
+The API supports:
+
+GET -- Fetch products
+
+POST -- Add product
+
+PUT -- Update product
+
+DELETE -- Delete product
+
+🖥️ Main Functions
+
+Add Product
+
+Enter:
+
+Product Name
+
+Price
+
+Category
+
+Brand
+
+Image URL
+
+and click Add Product.
+
+Edit Product
+
+Click the Edit button to update an existing product.
+
+Delete Product
+
+Click the Delete button to remove a product.
+
+📸 Screenshots
+
+Home / Product Form
+
+Add your screenshot here:
+
+![Product Form](./screenshots/product-form.png)
+
+Products List
+
+Add your screenshot here:
+
+![Products](./screenshots/products.png)
+
+🎥 Video Demo
+
+Add your project demo video link here:
+
+[▶️ Watch Project Demo](YOUR_VIDEO_LINK)
+
+📚 What I Learned
+
+React useState
+
+React useEffect
+
+Fetch API
+
+CRUD operations
+
+REST API integration
+
+JSON Server
+
+Bootstrap components and layout
+
+Handling forms in React
+
+Adding, editing and deleting data
+
+👩‍💻 Author
+
+Mahek Kadri
+
+Frontend Developer | React JS Learner
+
+
