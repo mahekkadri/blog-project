@@ -1,151 +1,155 @@
-🛍️ Product Management System
+# 🛍️ Product CRUD App
 
-A simple and responsive Product Management CRUD Application built
-with React JS, Bootstrap, and JSON Server.
+A simple **Product CRUD Application** built using **React JS, Bootstrap, and JSON Server**.
 
-This project allows users to add, view, edit, and delete products using
-a REST API.
+This project allows users to **Add, Display, Edit, and Delete products** using a local JSON Server API.
 
-🚀 Features
+## 🚀 Technologies Used
 
-➕ Add new products
+* React JS
+* JavaScript
+* JSX
+* Bootstrap
+* JSON Server
+* HTML
 
-👀 View all products
+## ✨ Features
 
-✏️ Edit product details
+* ➕ Add new products
+* 📋 Display all products
+* ✏️ Edit existing products
+* 🗑️ Delete products
+* 🖼️ Add product image using Image URL
+* 💰 Display product price
+* 🏷️ Display category and brand
+* 📱 Responsive Bootstrap cards
+* 🔄 Data stored using JSON Server REST API
 
-🗑️ Delete products
+## 📂 Project Structure
 
-🖼️ Add product image URL
-
-💰 Display product price
-
-🏷️ Display category and brand
-
-📱 Responsive Bootstrap layout
-
-🔄 Data stored using JSON Server REST API
-
-🛠️ Technologies Used
-
-React JS
-
-JSX
-
-Bootstrap
-
-JavaScript
-
-JSON Server
-
-Vite
-
-📂 Project Structure
-
-product-project/
+```text
+product-crud/
+│
 ├── src/
 │   ├── App.jsx
 │   └── main.jsx
+│
 ├── db.json
 ├── package.json
 └── README.md
+```
 
-⚙️ Installation & Setup
+## 🔧 Installation
 
-1. Clone the repository
+First, install the required packages:
 
-git clone YOUR_GITHUB_REPOSITORY_LINK
-
-2. Open the project
-
-cd product-project
-
-3. Install dependencies
-
+```bash
 npm install
+```
 
-4. Start JSON Server
+Install Bootstrap:
 
-Open a separate terminal and run:
+```bash
+npm install bootstrap
+```
 
-npx json-server db.json --port 3000
+Install JSON Server:
 
-API endpoint:
+```bash
+npm install json-server
+```
 
+## ▶️ Run the Project
+
+### 1. Start JSON Server
+
+Open a terminal and run:
+
+```bash
+npx json-server --watch db.json --port 3000
+```
+
+The API will run at:
+
+```text
 http://localhost:3000/products
+```
 
-5. Start React
+### 2. Start React App
 
 Open another terminal and run:
 
+```bash
 npm run dev
+```
 
-Then open the local URL shown by Vite in your browser.
+The React application will open on the Vite development URL shown in the terminal.
 
-📌 API
+## 🔗 API
 
-The application uses:
+The application uses the following API:
 
+```text
 http://localhost:3000/products
+```
 
 The API supports:
 
-GET -- Fetch products
+* `GET` – Display products
+* `POST` – Add product
+* `PUT` – Update product
+* `DELETE` – Delete product
 
-POST -- Add product
+## 📝 Product Fields
 
-PUT -- Update product
+Each product contains:
 
-DELETE -- Delete product
+```text
+id
+productName
+price
+category
+brand
+image
+```
 
-🖥️ Main Functions
+## 🎥 Video Demo
 
-Add Product
+my project demonstration video link :
+("https://drive.google.com/drive/folders/1fGanV5eD7ZqimOjLP_5EDqu9Y3E_U2Py?usp=sharing")
 
-Enter:
+## 💡 How It Works
 
-Product Name
+The React application uses `useState` to manage product and form data and `useEffect` to fetch products when the application loads.
 
-Price
+The application communicates with JSON Server using the `fetch()` method.
 
-Category
+When a product is added, the data is sent using `POST`.
 
-Brand
+When a product is edited, the updated data is sent using `PUT`.
 
-Image URL
+When a product is deleted, the application sends a `DELETE` request.
 
-Edit Product
+After every operation, the product list is fetched again so that the latest data is displayed.
 
-Click the Edit button to update an existing product.
+## 👩‍💻 Author
 
-Delete Product
+**Mahek Kadri**
 
-Click the Delete button to remove a product.
+Frontend Developer | BCA Student
 
-📚 What I Learned
+## 📌 Project Purpose
 
-React useState
+This project was created to practice:
 
-React useEffect
+* React Hooks
+* CRUD Operations
+* REST API
+* JSON Server
+* Fetch API
+* Bootstrap
+* React Form Handling
+* State Management
 
-Fetch API
-
-CRUD operations
-
-REST API integration
-
-JSON Server
-
-Bootstrap components and layout
-
-Handling forms in React
-
-Adding, editing and deleting data
-
-👩‍💻 Author
-
-Mahek Kadri
-
-Frontend Developer | React JS Learner
-
+```
 
